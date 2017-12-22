@@ -1,0 +1,24 @@
+{
+  "name": "image_gallery",
+  "version": "0.1.0",
+  "description": "Simple image gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --host 0.0.0.0 --public 10.10.10.61:8080 --watch-poll"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^8.2.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
