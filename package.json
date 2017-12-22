@@ -19,6 +19,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "raw-loader": "^0.5.1",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^2.9.7",
+    "yaml-loader": "^0.5.0"
   }
 }
