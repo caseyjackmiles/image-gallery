@@ -1,10 +1,12 @@
 import { h } from 'preact';
+import { Image } from './image.jsx';
 
-export const Gallery = (props) => {
-  let {title} = props;
+export const Gallery = ({title, images}) => {
   return (
     <div>
-      <h1>{title}</h1>
+      {title &&
+        <h1>{title}</h1>
+      }
     </div>
   );
 };

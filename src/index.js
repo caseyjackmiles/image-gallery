@@ -1,8 +1,6 @@
 import { h, render } from 'preact';
 import { Gallery } from './components/gallery.jsx';
+import configuration from './configuration';
 
-const data = require('json-loader!yaml-loader!../gallery.yaml');
-
-document.title = data.title || 'Image Gallery';
-
-render(<Gallery {...data} />, document.body);
+document.title = configuration.title || 'Image Gallery';
+render(<Gallery {...configuration} />, document.body);
